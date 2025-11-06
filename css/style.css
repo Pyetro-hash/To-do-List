@@ -1,0 +1,82 @@
+/* GERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2e204b;
+  color: #fff;
+  font-family: Roboto, san-serif;
+}
+
+.container {
+  justify-content: center;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #3f2b68;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #563d91;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  }
+
+li span {
+    padding: 5px;
+    margin-top: 13px;
+    flex: 1;
+    text-align: left;
+}
+
+li {
+  margin-top: 5px;
+  padding: 0;
+  background-color: #66428f;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+li .editBtn {
+  text-align: center;
+  justify-content: center;
+}
+
+
+li:hover {
+  background-color: #8456b9;
+}

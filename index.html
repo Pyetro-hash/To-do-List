@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
   <title>To-Do List</title>
   <!-- CSS DA PAGINA -->
    <link rel="stylesheet" href="css/style.css">
@@ -10,6 +11,11 @@
    <script src="js/script.js" defer></script>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Lista de tarefas</h1>
+    <input type="text" id="taskinput"placeholder="Adicione uma tarefa:">
+    <button onclick="addTask()">Adicionar</button>
+    <ul id="tasklist"></ul>
+  </div>
 </body>
 </html>
